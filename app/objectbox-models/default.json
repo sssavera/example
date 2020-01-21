@@ -1,0 +1,148 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "2:1309749202655111512",
+      "lastPropertyId": "20:5141391665785645286",
+      "name": "PartnerDB",
+      "properties": [
+        {
+          "id": "1:3180500807214667993",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:1254842058176340948",
+          "name": "login",
+          "type": 9
+        },
+        {
+          "id": "3:6236534738333744023",
+          "name": "password",
+          "type": 9
+        },
+        {
+          "id": "4:2940040053053034911",
+          "name": "categories",
+          "type": 9
+        },
+        {
+          "id": "5:255666544705328822",
+          "name": "tags",
+          "type": 9
+        },
+        {
+          "id": "6:4202598692664472252",
+          "name": "namesale",
+          "type": 9
+        },
+        {
+          "id": "7:8193794524341954607",
+          "name": "engsale",
+          "type": 9
+        },
+        {
+          "id": "8:242171524219979080",
+          "name": "providersale",
+          "type": 9
+        },
+        {
+          "id": "9:4449654718223276860",
+          "name": "sizesale",
+          "type": 9
+        },
+        {
+          "id": "10:4839741348333696812",
+          "name": "rusdescription",
+          "type": 9
+        },
+        {
+          "id": "11:6649740490574405670",
+          "name": "engdescription",
+          "type": 9
+        },
+        {
+          "id": "12:7287727643132155561",
+          "name": "sitecompany",
+          "type": 9
+        },
+        {
+          "id": "13:1114680343340633925",
+          "name": "email",
+          "type": 9
+        },
+        {
+          "id": "14:3418625561969442088",
+          "name": "phonenumber",
+          "type": 9
+        },
+        {
+          "id": "15:3338522199861546954",
+          "name": "inn",
+          "type": 9
+        },
+        {
+          "id": "16:3628802604461279506",
+          "name": "street",
+          "type": 9
+        },
+        {
+          "id": "17:8287620106302197662",
+          "name": "city",
+          "type": 9
+        },
+        {
+          "id": "18:8995605138553857572",
+          "name": "region",
+          "type": 9
+        },
+        {
+          "id": "19:4865805009336920286",
+          "name": "country",
+          "type": 9
+        },
+        {
+          "id": "20:5141391665785645286",
+          "name": "index",
+          "type": 9
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "2:1309749202655111512",
+  "lastIndexId": "0:0",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [
+    4936771930097899876
+  ],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [
+    107041981784644470,
+    1086092815658587446,
+    8350573290328043250,
+    7459877954534169903,
+    2172716017912558147,
+    5112946058493411652,
+    473526236799488108,
+    106955679768353737,
+    8572077980783377870,
+    49926532427328399,
+    8718766228941570962,
+    6274949187674952464,
+    2841883621672699757,
+    2949813264346864793,
+    1142406090808128711,
+    5710707345688168838,
+    2995481122020147111,
+    7925380843660398735
+  ],
+  "retiredRelationUids": [],
+  "version": 1
+}

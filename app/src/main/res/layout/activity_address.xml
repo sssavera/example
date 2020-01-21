@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Address">
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="362dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/yellow"
+        android:gravity="center"
+        android:text="Регистрация партнера"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar9" />
+
+    <EditText
+        android:id="@+id/region"
+        android:layout_width="280dp"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:hint="Регион"
+        android:inputType="textPersonName"
+        android:textColorHint="#FF5F5F5F"
+        app:layout_constraintEnd_toEndOf="@+id/country"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/country"
+        app:layout_constraintTop_toBottomOf="@+id/city" />
+
+    <EditText
+        android:id="@+id/street"
+        android:layout_width="280dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="80dp"
+        android:ems="10"
+        android:hint="Улица"
+        android:inputType="textPersonName"
+        android:textColorHint="#FF5F5F5F"
+        app:layout_constraintEnd_toEndOf="@+id/city"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/city"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+    <EditText
+        android:id="@+id/index"
+        android:layout_width="280dp"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:hint="Индекс"
+        android:inputType="textPersonName"
+        android:textColorHint="#FF5F5F5F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/country"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/country"
+        android:layout_width="280dp"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:hint="Страна"
+        android:inputType="textPersonName"
+        android:textColorHint="#FF5F5F5F"
+        app:layout_constraintEnd_toEndOf="@+id/index"
+        app:layout_constraintStart_toStartOf="@+id/index"
+        app:layout_constraintTop_toBottomOf="@+id/region" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar9"
+        android:layout_width="230dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="588dp"
+        android:background="@drawable/logo"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:text="Месторасположение\nскидки"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar9" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Заполните адрес где предоставляется скидка."
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <EditText
+        android:id="@+id/city"
+        android:layout_width="280dp"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:hint="Город"
+        android:inputType="textPersonName"
+        android:textColorHint="#FF5F5F5F"
+        app:layout_constraintEnd_toEndOf="@+id/region"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/region"
+        app:layout_constraintTop_toBottomOf="@+id/street" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/singup"
+        android:text="Назад"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/singup"
+        android:text="Далее"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

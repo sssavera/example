@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Categories">
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="362dp"
+        android:layout_height="64dp"
+        android:background="@drawable/yellow"
+        android:gravity="center"
+        android:text="Регистрация партнера"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar3" />
+
+    <CheckBox
+        android:id="@+id/categorybox8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Путешествия"
+        android:textAllCaps="true"
+        android:textColor="#0F5994"
+        app:layout_constraintStart_toStartOf="@+id/categorybox7"
+        app:layout_constraintTop_toBottomOf="@+id/categorybox7" />
+
+    <CheckBox
+        android:id="@+id/categorybox4"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Еда и напитки"
+        android:textAllCaps="true"
+        android:textColor="#0F5994"
+        app:layout_constraintStart_toStartOf="@+id/categorybox3"
+        app:layout_constraintTop_toBottomOf="@+id/categorybox3" />
+
+    <CheckBox
+        android:id="@+id/categorybox7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Покупки"
+        android:textAllCaps="true"
+        android:textColor="#0F5994"
+        app:layout_constraintStart_toStartOf="@+id/categorybox6"
+        app:layout_constraintTop_toBottomOf="@+id/categorybox6" />
+
+    <CheckBox
+        android:id="@+id/categorybox6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Сервис"
+        android:textAllCaps="true"
+        android:textColor="#0F5994"
+        app:layout_constraintStart_toStartOf="@+id/categorybox5"
+        app:layout_constraintTop_toBottomOf="@+id/categorybox5" />
+
+    <CheckBox
+        android:id="@+id/categorybox5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="256dp"
+        android:text="Отели"
+        android:textAllCaps="true"
+        android:textColor="#0F5994"
+        app:layout_constraintBottom_toTopOf="@+id/next"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.726"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <CheckBox
+        android:id="@+id/categorybox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Спорт"
+        android:textAllCaps="true"
+        android:textColor="#0F5994"
+        app:layout_constraintStart_toStartOf="@+id/categorybox2"
+        app:layout_constraintTop_toBottomOf="@+id/categorybox2" />
+
+    <CheckBox
+        android:id="@+id/categorybox2"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Здоровье и красота"
+        android:textAllCaps="true"
+        android:textColor="#0F5994"
+        app:layout_constraintStart_toStartOf="@+id/categorybox"
+        app:layout_constraintTop_toBottomOf="@+id/categorybox" />
+
+    <CheckBox
+        android:id="@+id/categorybox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="256dp"
+        android:text="Обучение"
+        android:textAllCaps="true"
+        android:textColor="#0F5994"
+        app:layout_constraintBottom_toTopOf="@+id/back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.098"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="230dp"
+        android:layout_height="75dp"
+        android:background="@drawable/logo"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/singup"
+        android:text="Назад"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/singup"
+        android:text="Далее"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:text="Категории, которые подходят для ваших товаров и услуг"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar3" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddPhoto">
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="362dp"
+        android:layout_height="64dp"
+        android:background="@drawable/yellow"
+        android:gravity="center"
+        android:text="Регистрация партнера"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar10" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar10"
+        android:layout_width="230dp"
+        android:layout_height="75dp"
+        android:background="@drawable/logo"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="290dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="68dp"
+        android:gravity="center"
+        android:text="Загрузка фотографий"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar10" />
+
+    <!--
+    <EditText
+        android:id="@+id/photo1"
+        android:layout_width="197dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="56dp"
+        android:ems="10"
+        android:hint="Фото 1"
+        android:inputType="textPersonName"
+        android:textColorHint="#FF5F5F5F"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="324dp" />
+-->
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Фото скидки"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="183dp"
+        android:layout_height="114dp"
+        android:gravity="center"
+        android:text="Вы можете добавить фото к вашей скидке. Если фото нет, то будет отображаться фото первой категории ваших скидок."
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.929"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+    <Button
+        android:id="@+id/addphoto1"
+        android:layout_width="105dp"
+        android:layout_height="41dp"
+        android:background="@drawable/singup"
+        android:text="Загрузить"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/photo1"
+        app:layout_constraintStart_toStartOf="@+id/photo1"
+        app:layout_constraintTop_toBottomOf="@+id/photo1" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Фото на слайдер"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addphoto1" />
+
+    <!--
+    <EditText
+        android:id="@+id/photo2"
+        android:layout_width="195dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:hint="Фото 2"
+        android:inputType="textPersonName"
+        android:textColorHint="#FF5F5F5F"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.292"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView22" />
+-->
+
+    <!--
+    <EditText
+        android:id="@+id/photo3"
+        android:layout_width="194dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Фото 3"
+        android:inputType="textPersonName"
+        android:textColorHint="#FF5F5F5F"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.294"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/photo2" />
+-->
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="214dp"
+        android:layout_height="94dp"
+        android:gravity="center"
+        android:text="Фотографии будут выводится в слайдер на странице партнера. Для корректного отображения фото должно быть горизонтальным."
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.918"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+    <!--
+    <Button
+        android:id="@+id/addphoto3"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:background="@drawable/singup"
+        android:text="Загрузить"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="285dp"
+        tools:layout_editor_absoluteY="551dp" />
+-->
+
+    <Button
+        android:id="@+id/addphoto2"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:background="@drawable/singup"
+        android:text="Загрузить"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/photo2"
+        app:layout_constraintHorizontal_bias="0.629"
+        app:layout_constraintStart_toStartOf="@+id/photo2"
+        app:layout_constraintTop_toBottomOf="@+id/photo2" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/singup"
+        android:text="Назад"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/singup"
+        android:text="Далее"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/photo1"
+        android:layout_width="137dp"
+        android:layout_height="115dp"
+        android:layout_marginStart="28dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+    <ImageView
+        android:id="@+id/photo2"
+        android:layout_width="137dp"
+        android:layout_height="115dp"
+        android:layout_marginStart="28dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView21" />
+</androidx.constraintlayout.widget.ConstraintLayout>
